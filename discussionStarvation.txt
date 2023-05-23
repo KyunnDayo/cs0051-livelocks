@@ -1,0 +1,11 @@
+Starvation
+	-occurs whan a process or thread is unable to make progress or access a resource it needs to being continously bypassed or delayed by other process or threads.
+		-in the conext of concurrent programming:
+			-starvation occurs when a lower-priority process/thread is continously preempted or blocked by the higher priority.
+
+Livelock
+	-It is a concurrency failure case where a thread/proccess is not blocked but it is unable to make progress because of the actuon of another theead.
+		-It involves two or more threads that share concurrency primitives such as mutual exclusion(mutex) locks.
+
+		LiveLock- threads cannot make progress and are NOT blocked
+		DeadLock- threads cannot make progress and are blocked
